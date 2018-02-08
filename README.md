@@ -22,8 +22,8 @@ pod 'AppLinkIO'
 
 ## Author
 
-ahass0227, ahass@elevatedtms.com
+AppLink.io, Inc. - support@applink.io
 
 ## License
 
-AppLinkIO is available under the MIT license. See the LICENSE file for more info.
+AppLinkIO is available under the Commercial license. See the LICENSE file for more info.

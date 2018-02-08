@@ -1,0 +1,22 @@
+{
+  "name": "AppLinkIO",
+  "version": "0.1.0",
+  "summary": "A short description of AppLinkIO.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ahass0227/AppLinkIO",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ahass0227": "ahass@elevatedtms.com"
+  },
+  "source": {
+    "git": "https://github.com/ahass0227/AppLinkIO.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AppLinkIO/Classes/**/*"
+}

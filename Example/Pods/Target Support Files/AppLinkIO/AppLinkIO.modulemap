@@ -1,0 +1,6 @@
+framework module AppLinkIO {
+  umbrella header "AppLinkIO-umbrella.h"
+
+  export *
+  module * { export * }
+}
