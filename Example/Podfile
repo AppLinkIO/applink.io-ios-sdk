@@ -1,0 +1,6 @@
+use_frameworks!
+target 'AppLinkIO_Tests' do
+  pod 'AppLinkIO', :path => '../'
+  
+  
+end
