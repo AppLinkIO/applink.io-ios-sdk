@@ -12,10 +12,10 @@
 		827DEEDEC3B54FC891BC1C6806D25B1A /* Pods-AppLinkIO_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 353AF8A8129A14A38C6D03F8A8B3FFE3 /* Pods-AppLinkIO_Tests-dummy.m */; };
 		AC5B0F44379E55C74F843531F02C71C1 /* AppLinkIO-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACAB91A052391418E4E54FEA2E294713 /* AppLinkIO-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF4C6F8297A5D10818EC5668A517832C /* Pods-AppLinkIO_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25BCD81548A0BFB5119DAF9ADEFB0078 /* Pods-AppLinkIO_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8869254202C19EC00067EB2 /* AppLinkIO_URLProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C886924F202C19EC00067EB2 /* AppLinkIO_URLProtocol.h */; };
-		C8869255202C19EC00067EB2 /* AppLinkIO.h in Headers */ = {isa = PBXBuildFile; fileRef = C8869251202C19EC00067EB2 /* AppLinkIO.h */; };
-		C8869256202C19EC00067EB2 /* libAppLinkIO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8869252202C19EC00067EB2 /* libAppLinkIO.a */; };
-		C8869257202C19EC00067EB2 /* AppLinkIO_URLSession.h in Headers */ = {isa = PBXBuildFile; fileRef = C8869253202C19EC00067EB2 /* AppLinkIO_URLSession.h */; };
+		C8A4622421C4A8C100D2423B /* AppLinkIO_URLSession.h in Headers */ = {isa = PBXBuildFile; fileRef = C8A4621F21C4A8C100D2423B /* AppLinkIO_URLSession.h */; };
+		C8A4622521C4A8C100D2423B /* libAppLinkIO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8A4622021C4A8C100D2423B /* libAppLinkIO.a */; };
+		C8A4622621C4A8C100D2423B /* AppLinkIO.h in Headers */ = {isa = PBXBuildFile; fileRef = C8A4622221C4A8C100D2423B /* AppLinkIO.h */; };
+		C8A4622721C4A8C100D2423B /* AppLinkIO_URLProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C8A4622321C4A8C100D2423B /* AppLinkIO_URLProtocol.h */; };
 		FA695553E11F8B72DBD9632AB27CDE50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,11 +47,11 @@
 		95610765D7F46FC92C3417F97652CE42 /* AppLinkIO-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AppLinkIO-prefix.pch"; sourceTree = "<group>"; };
 		ACAB91A052391418E4E54FEA2E294713 /* AppLinkIO-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AppLinkIO-umbrella.h"; sourceTree = "<group>"; };
 		AE9B3D0B8B3454DC25908923311676DB /* Pods-AppLinkIO_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AppLinkIO_Tests.modulemap"; sourceTree = "<group>"; };
-		C886924F202C19EC00067EB2 /* AppLinkIO_URLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppLinkIO_URLProtocol.h; sourceTree = "<group>"; };
-		C8869250202C19EC00067EB2 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		C8869251202C19EC00067EB2 /* AppLinkIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppLinkIO.h; sourceTree = "<group>"; };
-		C8869252202C19EC00067EB2 /* libAppLinkIO.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAppLinkIO.a; sourceTree = "<group>"; };
-		C8869253202C19EC00067EB2 /* AppLinkIO_URLSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppLinkIO_URLSession.h; sourceTree = "<group>"; };
+		C8A4621F21C4A8C100D2423B /* AppLinkIO_URLSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppLinkIO_URLSession.h; path = "../AppLinkIO-SDK/AppLinkIO_URLSession.h"; sourceTree = "<group>"; };
+		C8A4622021C4A8C100D2423B /* libAppLinkIO.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppLinkIO.a; path = "../AppLinkIO-SDK/libAppLinkIO.a"; sourceTree = "<group>"; };
+		C8A4622121C4A8C100D2423B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = "../AppLinkIO-SDK/LICENSE"; sourceTree = "<group>"; };
+		C8A4622221C4A8C100D2423B /* AppLinkIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppLinkIO.h; path = "../AppLinkIO-SDK/AppLinkIO.h"; sourceTree = "<group>"; };
+		C8A4622321C4A8C100D2423B /* AppLinkIO_URLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppLinkIO_URLProtocol.h; path = "../AppLinkIO-SDK/AppLinkIO_URLProtocol.h"; sourceTree = "<group>"; };
 		DC8E41CB99991CFD236484354DE893BF /* Pods-AppLinkIO_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AppLinkIO_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		DEEA65BE1F3F836D5F20943DF2061A2A /* Pods-AppLinkIO_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppLinkIO_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E5A1EA86F43F7AF56F19313E43C639E6 /* Pods-AppLinkIO_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppLinkIO_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -70,8 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8A4622521C4A8C100D2423B /* libAppLinkIO.a in Frameworks */,
 				1E54ED5CCA4E6BE0A3B805A8555B2EC0 /* Foundation.framework in Frameworks */,
-				C8869256202C19EC00067EB2 /* libAppLinkIO.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +135,7 @@
 		AE56274874819C496059850BEFFDC103 /* AppLinkIO */ = {
 			isa = PBXGroup;
 			children = (
-				C886924E202C19EC00067EB2 /* AppLinkIO-iOS-1.1.4 */,
+				C886924E202C19EC00067EB2 /* AppLinkIO-SDK */,
 				F09DCACD5FD2D5E78320EC7A6EC9CA9F /* Support Files */,
 			);
 			name = AppLinkIO;
@@ -150,15 +150,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C886924E202C19EC00067EB2 /* AppLinkIO-iOS-1.1.4 */ = {
+		C886924E202C19EC00067EB2 /* AppLinkIO-SDK */ = {
 			isa = PBXGroup;
 			children = (
-				C886924F202C19EC00067EB2 /* AppLinkIO_URLProtocol.h */,
-				C8869250202C19EC00067EB2 /* LICENSE */,
-				C8869251202C19EC00067EB2 /* AppLinkIO.h */,
-				C8869252202C19EC00067EB2 /* libAppLinkIO.a */,
-				C8869253202C19EC00067EB2 /* AppLinkIO_URLSession.h */,
+				C8A4622321C4A8C100D2423B /* AppLinkIO_URLProtocol.h */,
+				C8A4621F21C4A8C100D2423B /* AppLinkIO_URLSession.h */,
+				C8A4622221C4A8C100D2423B /* AppLinkIO.h */,
+				C8A4622021C4A8C100D2423B /* libAppLinkIO.a */,
+				C8A4622121C4A8C100D2423B /* LICENSE */,
 			);
+			name = "AppLinkIO-SDK";
 			path = "AppLinkIO-iOS-1.1.4";
 			sourceTree = "<group>";
 		};
@@ -191,9 +192,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8869254202C19EC00067EB2 /* AppLinkIO_URLProtocol.h in Headers */,
-				C8869257202C19EC00067EB2 /* AppLinkIO_URLSession.h in Headers */,
-				C8869255202C19EC00067EB2 /* AppLinkIO.h in Headers */,
+				C8A4622421C4A8C100D2423B /* AppLinkIO_URLSession.h in Headers */,
+				C8A4622721C4A8C100D2423B /* AppLinkIO_URLProtocol.h in Headers */,
+				C8A4622621C4A8C100D2423B /* AppLinkIO.h in Headers */,
 				AC5B0F44379E55C74F843531F02C71C1 /* AppLinkIO-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
